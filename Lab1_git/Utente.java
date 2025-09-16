@@ -14,6 +14,7 @@ public class Utente {
 		this.idade = idade;
 		this.altura = altura;
 		this.peso = peso;
+		
 	}
 
 }
