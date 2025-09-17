@@ -41,5 +41,11 @@ public class Utente {
 		this.peso = peso;
 	}
 
+	@Override
+	public String toString() {
+		return "Utente [nome=" + nome + ", genero=" + genero + ", idade=" + idade + ", altura=" + altura + ", peso="
+				+ peso + "]";
+	}
+
 
 }
