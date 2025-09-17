@@ -41,5 +41,4 @@ public class Utente {
 		this.peso = peso;
 	}
 
-
 }
