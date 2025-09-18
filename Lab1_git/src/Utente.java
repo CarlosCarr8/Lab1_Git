@@ -50,5 +50,9 @@ public class Utente {
 	public float UtenteIMC() {
 		return peso/(altura*altura);
 	}
+	public void imprimirIMC() {
+	    System.out.println("IMC: " + UtenteIMC());
+	}
+
 	}
 
