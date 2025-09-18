@@ -46,6 +46,12 @@ public class Utente {
 		return "Utente [nome=" + nome + ", genero=" + genero + ", idade=" + idade + ", altura=" + altura + ", peso="
 				+ peso + "]";
 	}
+	public float UtenteIMC() {
+		return peso/(altura*altura);
+	}
+	public void imprimirIMC() {
+	    System.out.println("IMC: " + UtenteIMC());
+	}
 
+	}
 
-}
